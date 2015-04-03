@@ -8,7 +8,6 @@ $(function () {
       $('#pageviews').text(data.pageviews);
     })
     .fail(function (xhr, data) {
-      console.log(xhr.responseJSON.error);
-      $('#error').text(xhr.responseJSON.error);
+      $('#error').text(xhr.responseJSON && xhr.responseJSON.error ? xhr.responseJSON.error : 'Something went wrong');
     });
 }());
