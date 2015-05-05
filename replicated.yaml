@@ -1,6 +1,6 @@
 # My Counter App version 1.0
 ---
-replicated_api_version: 1
+replicated_api_version: 1.0.0
 name: My Counter App
 version: "1.0"
 release_notes: The initial release of my counter application.
