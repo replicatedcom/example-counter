@@ -100,7 +100,6 @@ config:
   items:
   - name: hostname
     title: Hostname
-    description: ""
     type: text
     recommended: false
     default: ""
